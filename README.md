@@ -5,7 +5,7 @@
 ### Application
 - Java
 - JavaFX (GUI)
-- Maven (Gestionnaire de dépendances)
+- Maven (Gestion de dépendances)
 - [MyBatis](https://mybatis.org/mybatis-3/) (Mapping [POJO](https://fr.wikipedia.org/wiki/Plain_old_Java_object)<->SQL)
     - inclus dans dépendances Maven
 - OJDBC (Oracle JDBC)
