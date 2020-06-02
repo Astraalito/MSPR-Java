@@ -1,0 +1,39 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+    <typeAliases>
+        <typeAlias type="com.recycl.monitoring.model.Address" alias="Address"/>
+        <typeAlias type="com.recycl.monitoring.model.CollectionRequest" alias="CollectionRequest"/>
+        <typeAlias type="com.recycl.monitoring.model.Company" alias="Company"/>
+        <typeAlias type="com.recycl.monitoring.model.Employee" alias="Employee"/>
+        <typeAlias type="com.recycl.monitoring.model.RequestDetails" alias="RequestDetails"/>
+        <typeAlias type="com.recycl.monitoring.model.Site" alias="Site"/>
+        <typeAlias type="com.recycl.monitoring.model.TreatmentPlant" alias="TreatmentPlan"/>
+        <typeAlias type="com.recycl.monitoring.model.Truck" alias="Truck"/>
+        <typeAlias type="com.recycl.monitoring.model.Waste" alias="Waste"/>
+        <typeAlias type="com.recycl.monitoring.model.WasteCollection" alias="WasteCollection"/>
+        <typeAlias type="com.recycl.monitoring.model.WasteDepot" alias="WasteDepot"/>
+        <typeAlias type="com.recycl.monitoring.model.WasteType" alias="WasteType"/>
+    </typeAliases>
+
+    <environments default="development">
+        <environment id="development">
+            <transactionManager type="JDBC"/>
+
+            <dataSource type="POOLED">
+                <property name="driver" value="com.oracle.jdbc.Driver"/>
+                <property name="url" value="jdbc:oracle:thin:@localhost:1521/XE"/>
+                <property name="username" value="finnBoi"/>
+                <property name="password" value="finnBoi"/>
+            </dataSource>
+
+        </environment>
+    </environments>
+
+    <mappers>
+        <mapper resource="com/recycl/monitoring/db/mybatis/mappers/CollectionRequestMapper"/>
+    </mappers>
+
+</configuration>
