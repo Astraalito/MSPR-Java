@@ -10,6 +10,18 @@
     <packaging>jar</packaging>
     <name>RECYCL Monitoring</name>
 
+    <build>
+        <resources>
+            <resource>
+                <filtering>false</filtering>
+                <directory>src/main/java</directory>
+                <includes>
+                    <include>**/*.fxml</include>
+                </includes>
+            </resource>
+        </resources>
+    </build>
+
     <dependencies>
         <dependency>
             <groupId>org.mybatis</groupId>
@@ -17,11 +29,6 @@
             <version>3.4.0</version>
         </dependency>
 
-        <!-- Simpler way: How to add Oracle JDBC driver in your Maven local repository:
-            http://www.mkyong.com/maven/how-to-add-oracle-jdbc-driver-in-your-maven-local-repository/ -->
-        <!-- Oracle's way: How to use Oracle JDBC driver from Oracle Maven repository
-            https://blogs.oracle.com/dev2dev/entry/how_to_get_oracle_jdbc http://docs.oracle.com/middleware/1213/core/MAVEN/config_maven_repo.htm-->
-        <!-- https://mvnrepository.com/artifact/com.oracle.ojdbc/ojdbc8 -->
         <dependency>
             <groupId>com.oracle.ojdbc</groupId>
             <artifactId>ojdbc8</artifactId>

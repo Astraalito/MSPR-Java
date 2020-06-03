@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PersistentConfig">
+    <option name="historyConfigList">
+      <map>
+        <entry key="EMPLOYE">
+          <value>
+            <Config>
+              <option name="comment" value="true" />
+              <option name="daoMvnPath" value="src/main/java" />
+              <option name="daoName" value="EmployeDao" />
+              <option name="daoPackage" value="generate" />
+              <option name="daoPostfix" value="Dao" />
+              <option name="modelMvnPath" value="src/main/java" />
+              <option name="modelName" value="Employe" />
+              <option name="modelPackage" value="generate" />
+              <option name="name" value="EMPLOYE" />
+              <option name="overrideJava" value="true" />
+              <option name="overrideXML" value="true" />
+              <option name="primaryKey" value="NUM_EPL" />
+              <option name="projectFolder" value="$PROJECT_DIR$" />
+              <option name="tableName" value="EMPLOYE" />
+              <option name="useLombokPlugin" value="true" />
+              <option name="useSchemaPrefix" value="true" />
+              <option name="xmlMvnPath" value="src/main/resources" />
+              <option name="xmlPackage" value="generator" />
+            </Config>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="initConfig">
+      <map>
+        <entry key="initConfig">
+          <value>
+            <Config>
+              <option name="comment" value="true" />
+              <option name="daoPackage" value="generator" />
+              <option name="daoPostfix" value="Dao" />
+              <option name="modelPackage" value="generator" />
+              <option name="name" value="initConfig" />
+              <option name="overrideJava" value="true" />
+              <option name="overrideXML" value="true" />
+              <option name="projectFolder" value="$PROJECT_DIR$" />
+              <option name="useLombokPlugin" value="true" />
+              <option name="useSchemaPrefix" value="true" />
+              <option name="xmlPackage" value="generator" />
+            </Config>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
