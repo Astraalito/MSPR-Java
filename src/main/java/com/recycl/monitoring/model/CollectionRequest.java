@@ -3,6 +3,8 @@ package com.recycl.monitoring.model;
 import java.util.Date;
 import java.util.Vector;
 
+// TODO: Tester fonctionnement requêtes MyBatis
+
 public class CollectionRequest {
     private int id;
     private Company company;
