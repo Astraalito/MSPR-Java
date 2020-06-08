@@ -35,3 +35,4 @@ buildNumber.properties
 .mvn/timing.properties
 # https://github.com/takari/maven-wrapper#usage-without-binary-jar
 .mvn/wrapper/maven-wrapper.jar
+/out/production/mspr_java_jfx_app/META-INF/mspr_java_jfx_app.kotlin_module
