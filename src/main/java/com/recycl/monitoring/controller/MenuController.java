@@ -1,4 +1,4 @@
 package com.recycl.monitoring.controller;
 
-public class CollectionRequestController {
+public class MenuController {
 }

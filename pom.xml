@@ -23,41 +23,27 @@
     </build>
 
     <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.mybatis/mybatis -->
         <dependency>
             <groupId>org.mybatis</groupId>
             <artifactId>mybatis</artifactId>
             <version>3.4.0</version>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/com.oracle.ojdbc/ojdbc8 -->
         <dependency>
             <groupId>com.oracle.ojdbc</groupId>
             <artifactId>ojdbc8</artifactId>
             <version>19.3.0.0</version>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/org.controlsfx/controlsfx -->
+        <dependency>
+            <groupId>org.controlsfx</groupId>
+            <artifactId>controlsfx</artifactId>
+            <version>8.40.16</version>
+        </dependency>
 
     </dependencies>
-
-    <!-- Repositories for the Oracle's way -->
-    <!--<repositories>
-        <repository>
-            <id>maven.oracle.com</id>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
-            <snapshots>
-                <enabled>false</enabled>
-            </snapshots>
-            <url>https://maven.oracle.com</url>
-            <layout>default</layout>
-        </repository>
-    </repositories>
-
-    <pluginRepositories>
-        <pluginRepository>
-            <id>maven.oracle.com</id>
-            <url>https://maven.oracle.com</url>
-        </pluginRepository>
-    </pluginRepositories>-->
 
 </project>

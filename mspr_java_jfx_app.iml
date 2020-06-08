@@ -19,5 +19,6 @@
     <orderEntry type="library" name="Maven: com.oracle.ojdbc:osdt_core:19.3.0.0" level="project" />
     <orderEntry type="library" name="Maven: com.oracle.ojdbc:simplefan:19.3.0.0" level="project" />
     <orderEntry type="library" name="Maven: com.oracle.ojdbc:ons:19.3.0.0" level="project" />
+    <orderEntry type="library" name="Maven: org.controlsfx:controlsfx:8.40.16" level="project" />
   </component>
 </module>
