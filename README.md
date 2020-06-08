@@ -7,10 +7,7 @@
 - JavaFX (GUI)
 - Maven (Gestion de dépendances)
 - [MyBatis](https://mybatis.org/mybatis-3/) (Mapping [POJO](https://fr.wikipedia.org/wiki/Plain_old_Java_object) <-> SQL)
-    - inclus dans les dépendances Maven
-- OJDBC (Oracle JDBC)
-    - driver nécessaire pour utilisation de MyBatis avec Oracle
-    - inclus dans les dépendances Maven
+- OJDBC (Oracle JDBC) (driver nécessaire pour la connection à base de données Oracle)
 ### Base de données
 - Oracle 11g
 
