@@ -1,6 +1,11 @@
 # MSPR Java
 > Développement d'une application bureau de monitoring dans le cadre d'une MSPR Java.
 
+**! Utiliser la branche 'dev' pour le développement !**
+
+## Pour commencer
+- [Aide au développement](https://github.com/Astraalito/MSPR-Java/wiki/Aide-au-d%C3%A9veloppement)
+
 ## Technos
 ### Application
 - Java
