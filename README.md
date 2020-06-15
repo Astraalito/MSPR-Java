@@ -4,7 +4,7 @@
 **! Utiliser la branche 'dev' pour le développement !**
 
 ## Pour commencer
-- [Quelques informations utiles ici](https://github.com/Astraalito/MSPR-Java/wiki/Aide-au-d%C3%A9veloppement)
+- [Aide au développement](https://github.com/Astraalito/MSPR-Java/wiki/Aide-au-d%C3%A9veloppement)
 
 ## Technos
 ### Application
