@@ -1,6 +1,8 @@
 # MSPR Java
 > Développement d'une application bureau de monitoring dans le cadre d'une MSPR Java.
 
+**Utiliser la branche 'dev' pour le développement**
+
 ## Technos
 ### Application
 - Java
