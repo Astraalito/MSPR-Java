@@ -19,6 +19,9 @@
 ## Liens utiles
 ### Conventions
 - [Commit Message Guidelines](https://gist.github.com/robertpainsi/b632364184e70900af4ab688decf6f53)
+### Documentation
+- [Introduction to Javadoc](https://www.baeldung.com/javadoc)
+- [What's package-info.java for?](https://www.intertech.com/Blog/whats-package-info-java-for/)
 ### JavaFX
 - [JavaFX Tutorial](http://tutorials.jenkov.com/javafx/index.html)
 ### MyBatis
