@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="Company">
+    <resultMap id = "result" type = "Company">
+        <result property = "id" column = "NUM_ETR"/>
+        <result property = "siret" column = "SIRET"/>
+        <result property = "name" column = "RAIS_SOCL"/>
+    </resultMap>
+
+    <!-- SELECT -->
+    <select id="selectCompany" parameterType="int" resultType="Company">
+        select * from ENTREPRISE where NUM_ETR = #{num_etr}
+    </select>
+    <!-- TODO: SELECT propriétés spécifiques dans SQL pour mapper à CollectionRequest plutôt qu'à map -->
+    <select id="selectCompanys" resultType="map">
+        select *
+        from ENTREPRISE
+        where NUM_ETR = #{id}
+    </select>
+
+    <!-- INSERT -->
+    <insert id="insertCompany">
+        insert into ENTREPRISE (NUM_ETR, SIRET, RAIS_SOCL)
+        values (#{id}, #{siret}, #{name})
+    </insert>
+
+    <!-- UPDATE -->
+    <update id="updateCompany">
+        update ENTREPRISE set
+                            TRN_RTC = #{trn_rtc},
+                            ETR_RTC = #{etr_rtc},
+                            DATE_DMD = #{date_dmd},
+                            DATE_ENV = #{date_env},
+                            ISVALID = #{isvalid}
+        where NUM_ETR = #{num_etr}
+    </update>
+
+    <!-- DELETE -->
+    <delete id="deleteCompany">
+        delete from ENTREPRISE where NUM_ETR = #{num_etr}
+    </delete>
+</mapper>

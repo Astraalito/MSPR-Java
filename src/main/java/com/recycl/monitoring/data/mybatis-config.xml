@@ -23,7 +23,8 @@
             <transactionManager type="JDBC"/>
 
             <dataSource type="POOLED">
-                <property name="driver" value="com.oracle.jdbc.Driver"/>
+                <!--<property name="driver" value="com.oracle.jdbc.Driver"/>-->
+                <property name="driver" value="oracle.jdbc.OracleDriver"/>
                 <property name="url" value="jdbc:oracle:thin:@localhost:1521/XE"/>
                 <property name="username" value="finnBoi"/>
                 <property name="password" value="finnBoi"/>
@@ -33,7 +34,8 @@
     </environments>
 
     <mappers>
-        <mapper resource="com/recycl/monitoring/db/mybatis/mappers/CollectionRequestMapper"/>
+        <mapper resource="com/recycl/monitoring/data/CollectionRequestMapper.xml"/>
+        <mapper resource="com/recycl/monitoring/data/CompanyMapper.xml"/>
     </mappers>
 
 </configuration>
